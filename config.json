@@ -1,0 +1,39 @@
+{
+	"accounts" : [
+		{
+			"user" : "catswithshinystarsatgmail.com#9940",
+			"token" : "NjkyNzI1NzEwNTk4NDM5MDM0.XohsMQ.ckGh6GDDdi1EYxgeo38Eqbbayds",
+			"private" : 73,
+			"public" : 163
+		},
+		{
+			"user" : "catswithflyingcarsatgmail.com#2201",
+			"token" : "Njk1OTU3MTUwMDAxNzkxMDM4.XohvNA.wWqDHJnzC1HnU9DtJGCGQMX_xfg",
+			"private" : 157,
+			"public" : 193
+		}
+
+	],
+	"servers": {
+		"Hawken Refugees" : {
+			"channels" : [
+				"nothawken",
+				"engine-room",
+				"hawken"
+			]
+		},
+		"City Of Light" : {
+			"channels" : [
+				"test",
+				"text"
+			]
+		}
+	},
+	"dm users" : [
+		"monitor",
+		"Epos95",
+		"Envy",
+		"catswithflyingcars",
+		"catswithshinystars"
+	]
+}
