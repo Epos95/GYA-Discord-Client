@@ -1,4 +1,3 @@
-import discord
 from cryptography.fernet import Fernet
 
 class Funcs():
@@ -26,7 +25,7 @@ class Funcs():
 		message.content = message.content.replace("\n", " ")
 		if message.content[:len(self.prefix1)] == self.prefix1 and message.author != self.bot.user:
 			self.stored_key = message.content[len(self.prefix1):]
-			self.messagelist.insert(0,"Client -> " + message.author.name + " wants to use crypto, /tcrypt to accept")
+			self.messagelist.insert(0,"Client -> " + message.author.name + " wants to use crypto, /accept to accept")
 
 		elif message.content[:len(self.prefix2)] == self.prefix2 and message.author != self.bot.user:
 			partial_key_peer = message.content[len(self.prefix2):]

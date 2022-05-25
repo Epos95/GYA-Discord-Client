@@ -1,5 +1,10 @@
 import base64
+
 class DH(object):
+	""" 
+	Class for handling the keys for encryption within the application.
+	Just applies standard DH to get the other persons key.
+	"""
 	def __init__(self, public_key1, public_key2, private_key):
 		self.public_key1 = public_key1
 		self.public_key2 = public_key2

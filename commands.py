@@ -1,9 +1,9 @@
 import curses
 
 import sys
-import asyncio
 
 from dh import DH
+
 class Commands():
 	def __init__(self):
 		pass
